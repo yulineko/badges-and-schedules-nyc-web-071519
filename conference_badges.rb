@@ -8,6 +8,6 @@ end
 
 def batch_badge_creator(speakers)
   speakers.map do |speaker|
-    
+    "Hello, my name is #{speaker}."
   end
 end 
